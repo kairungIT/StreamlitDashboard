@@ -8,3 +8,4 @@ pytz
 datetime
 Pillow
 streamlit_autorefresh 
+requests
