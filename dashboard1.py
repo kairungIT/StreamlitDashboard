@@ -18,7 +18,7 @@ with open('style.css') as f:
 count = st_autorefresh(interval=5000, limit=100, key="fizzbuzzcounter")
 
 #Put your logo here:
-logo = Image.open('./pic/02.jpg')
+logo = Image.open('./pic/DS1.jpg')
 logo = logo.resize((200, 100))#and make it to whatever size you want.
 
 
