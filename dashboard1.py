@@ -10,7 +10,7 @@ from streamlit_autorefresh import st_autorefresh
 
 # Page setting
 st.set_page_config(layout="wide", page_title="Npru test streamlit dashboard")
-st.markdown(f'<style><h1>หลักสูตรวิทยาการข้อมูล ม.ราชภัฏนครปฐม <h1></style>', unsafe_allow_html=True)
+st.markdown(f'<center><h1>หลักสูตรวิทยาการข้อมูล ม.ราชภัฏนครปฐม </h1></center>', unsafe_allow_html=True)
 with open('style.css') as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
