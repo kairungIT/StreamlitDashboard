@@ -2,10 +2,7 @@ streamlit_autorefresh
 pandas
 plost
 click
-json
 numpy
 pytz
 datetime
-Pillow
 streamlit
-requests
