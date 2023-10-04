@@ -9,8 +9,8 @@ from get_weather import *
 from streamlit_autorefresh import st_autorefresh
 
 # Page setting
-st.set_page_config(layout="wide", page_title="Robins cool dash")
-
+st.set_page_config(layout="wide", page_title="Npru test streamlit dashboard")
+st.header("วิทยการข้อมูล ม.ราชภัฏนครปฐม")
 with open('style.css') as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
